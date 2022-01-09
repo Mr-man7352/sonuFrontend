@@ -1,33 +1,54 @@
-<!-- Nav Bar Start -->
-<div id="nav" class="navbar navbar-expand-lg bg-dark navbar-dark">
-    <div class="container-fluid">
-        <a href="" class="navbar-brand"><img src="../../../../assets/images/sadar-logo.png" alt="logo"></a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<nav style="background-color: white; 
+  box-shadow: 0px 2px 4px 0px #0000001c;
 
-        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-            <div class="navbar-nav ml-auto">
-                <a href="" class="nav-item nav-link">Home</a>
-                <a href="./Blog/" class="nav-item nav-link">Blogs</a>
-                <a href="./Programs/" class="nav-item nav-link">Programs</a>
-                <a href="./JoinUs/" class="nav-item nav-link">Join us</a>
-                <a href="./AboutUs/" class="nav-item nav-link">About</a>
+  
+  " class="navbar navbar-expand-lg navbar-dark sticky">
+    <div class="container mx-6">
+        <a class="navbar-brand" href="https://www.sardartravels.in">
+            <img src="../../../../assets/images/sadar-logo.png" alt="Sardar Travels">
+        </a>
+
+        <a href="tel:076966-66640" class="btn btn-yellow call-btn">
+            <fa-icon [icon]="faMobileAlt"></fa-icon>
+            076966-66640
+        </a>
+
+        <div class="flex flex-grow-1">
+            <div class=" w-full menu ">
+                <ul class=" float-right m-0">
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Menu men</a>
+
+                    </li>
+                    <li>
+                        <a href="">temo menu</a>
+
+                    </li>
+                    <li>
+                        <a href="">traverler</a>
+
+                    </li>
+                    <li>
+                        <a href="">any Menu</a>
+
+                    </li>
+
+                    <li>
+                        <a href="" class="btn btn-yellow">
+                            <fa-icon [icon]="faTaxi"></fa-icon>
+                            Book Car
+                        </a>
+
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
-</div>
-<!-- Nav Bar End -->
 
-<div style="height: 150vh; background-color: red;">
-    afd
-</div>
-<!-- 
-    $(window).scroll(function () {
-  if ($(this).scrollTop() > 0 && $(window).width() > 992) {
-    $(".navbar").addClass("nav-sticky");
-  } else if ($(window).width() < 992) {
-    $(".navbar").addClass("nav-sticky");
-  } else $(".navbar").removeClass("nav-sticky");
-});
- -->
+
+
+
+    </div>
+</nav>

@@ -1,0 +1,24 @@
+.search-box {
+  padding: 30px;
+  color: #fff;
+  position: relative;
+  border-radius: 5px 5px 0 0;
+}
+
+.search-box .nav-tabs {
+  background: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 40px;
+  max-width: 350px;
+  margin: auto;
+}
+
+.search-box .tab-content {
+  background: #fff;
+  padding: 20px 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: rgb(129 129 129 / 10%) 0px 6px 10px 0px;
+}
