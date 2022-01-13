@@ -1,3 +1,8 @@
+section {
+  display: block;
+  background: #edf3fd;
+}
+
 .search-box {
   padding: 30px;
   color: #fff;
@@ -21,4 +26,136 @@
   border-radius: 5px;
   position: relative;
   box-shadow: rgb(129 129 129 / 10%) 0px 6px 10px 0px;
+}
+
+.search-box .nav-tabs li {
+  width: 50%;
+  float: left;
+  text-align: center;
+  list-style: none;
+}
+
+.search-box .nav-tabs li a {
+  display: block;
+  padding: 5px;
+  border-radius: 40px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.search-box .nav-tabs li a.active {
+  background: #38bca6;
+  box-shadow: 0px 2px 4px 0px #0000001c;
+  color: #ffffff;
+}
+
+.search-box .tab-content ul {
+  margin: 0;
+  display: flex;
+}
+
+.search-box .tab-content ul li {
+  list-style: none;
+  width: 33.33%;
+  padding: 0 5px;
+}
+
+.search-box .tab-content ul li label {
+  color: #777777;
+  margin: 0;
+  display: none;
+}
+
+.search-box .tab-content ul li .form-control {
+  height: 50px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.oneWayButton {
+  background: linear-gradient(to right, #fed700, #38bca6);
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 2px 4px 0px #0000001c;
+  border: unset;
+}
+
+.btn {
+  padding: 5px 15px;
+  border: 0px;
+  box-shadow: 0px 2px 4px 0px #0000001c;
+  // background-color: #5733b2;
+  // background: -webkit-linear-gradient(to right, #4600ac, #01014b);
+  // background: linear-gradient(to right, #4600ac, #01014b);
+  color: #fff;
+  outline: none;
+  font-weight: bold;
+}
+
+.featured-tours {
+  width: 100%;
+  // float: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 35px;
+}
+
+.headingH3 {
+  margin: 0 0 15px;
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+
+.tour-cols {
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.btn.btn-outline {
+  background: #fff;
+  color: #01014b;
+  border: none;
+}
+
+.tour-cols a {
+  display: block;
+  padding: 30px;
+  // color: #fff;
+  text-align: left;
+  position: relative;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.tour-cols h4 {
+  font-size: 22px;
+  margin-bottom: 5px;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.tour-cols .cab-price-start b {
+  font-size: 20px;
+}
+
+.tour-cols a .btn {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.tour-cols .btn.btn-main {
+  background: #fff;
+  border: 1px solid #41bd9f;
+  color: #fed700;
+}
+
+.tour-cols .btn.btn.btn-outline:hover {
+  background: #38bca6;
+  color: white;
 }
