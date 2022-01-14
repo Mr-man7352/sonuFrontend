@@ -4,9 +4,15 @@ import { CommonModule } from '@angular/common';
 import { HomepageRoutingModule } from './homepage-routing.module';
 import { HomepageComponent } from './homepage/homepage.component';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [HomepageComponent],
-  imports: [CommonModule, HomepageRoutingModule, SharedModule],
+  imports: [
+    CommonModule,
+    HomepageRoutingModule,
+    SharedModule,
+    FontAwesomeModule,
+  ],
 })
 export class HomepageModule {}

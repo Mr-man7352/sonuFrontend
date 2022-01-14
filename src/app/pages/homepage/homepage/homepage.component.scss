@@ -159,3 +159,64 @@ section {
   background: #38bca6;
   color: white;
 }
+
+.section-heading {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.h2Heading {
+  margin: 0 0 15px;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.cablist-cols {
+  margin-bottom: 30px;
+  padding: 15px;
+  background: #e0e0e04f;
+  border-radius: 5px;
+}
+.cablist-cols a {
+  display: block;
+  border-radius: 0;
+  color: #000;
+  text-decoration: none;
+}
+.cablist-cols .cab-image {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.cablist-cols img {
+  max-height: 125px;
+  display: inline;
+}
+.cablist-cols h4 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.cablist-cols p {
+  margin-bottom: 5px;
+}
+.cablist-cols p span {
+  padding: 10px;
+}
+.cablist-cols .cab-price-start {
+  padding-bottom: 10px;
+  font-size: 18px;
+  /* display: none; */
+}
+.cablist-cols a .btn {
+  background: none;
+  border-color: #fed700;
+  color: #fda725;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #38bca6;
+  width: 50%;
+  margin-top: 15px;
+}
