@@ -1,66 +1,40 @@
-footer {
-  color: #6b6c6c;
-}
-footer a {
-  color: #6b6c6c;
-}
-footer a:hover {
-  color: white;
+.site-footer {
+  background: #5dc9b7;
+  padding: 50px 0 0 0;
+  color: #fff;
+  // margin-top: 50px;
 }
 
-.footer-bottom {
-  background: #7b7d81;
-  padding: 2em;
-}
-.footer-top {
-  background: #2d4958;
-}
-.footer-middle {
-  background: #131925;
-  padding: 5em 0 3em 0;
-  margin-top: 10em;
-  color: white;
-}
-.footer-pad .socials {
-  margin-top: 5em;
-}
-.footer-pad span {
-  margin-right: 15px;
-}
-.footer-pad i {
-  cursor: pointer;
-  font-size: 30px;
-}
-.footer-pad i:hover {
-  font-size: 33px;
+.footer-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
 }
 
-.footer-pad-cities ul li {
-  width: 50%;
-  float: left;
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
-.list-unstyled li {
-  padding: 6px 0;
-}
-.fa-facebook-square {
-  color: #3b5699;
-}
-.fa-twitter {
-  color: #29a6e6;
-}
-.fa-instagram {
-  color: #c13d65;
-}
-.fa-google-plus-official {
-  color: #dd4e40;
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
-.sub-footer {
-  background-color: #333f57;
+.footer-content ul {
+  list-style: none;
 }
 
-.footer-end p {
-  color: #ada4a4;
-  font-size: 15px;
+.footer-content ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.copyrightText {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(24, 24, 24);
+  padding: 8px 100px;
+  text-align: center;
+  color: rgb(153, 153, 153);
 }
