@@ -12,6 +12,13 @@ const routes: Routes = [
     loadChildren: () =>
       import('./pages/about-us/about-us.module').then((m) => m.AboutUsModule),
   },
+  {
+    path: 'oneway-city',
+    loadChildren: () =>
+      import('./pages/oneway-city/oneway-city.module').then(
+        (m) => m.OnewayCityModule
+      ),
+  },
 ];
 
 @NgModule({
