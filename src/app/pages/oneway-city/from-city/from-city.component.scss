@@ -1,6 +1,217 @@
 .page-banner {
   padding: 50px 0 50px 0;
-  margin-top: 5px;
+  //   margin-top: 5px;
   position: relative;
   background: linear-gradient(to top, #fed700, #3fbfaa);
+}
+
+.page-banner h1 {
+  margin: 0;
+}
+
+.city-img {
+  max-width: 100px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  float: right;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.tour-cols {
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.btn.btn-outline {
+  background: #fff;
+  color: #01014b;
+  border: none;
+}
+
+.tour-cols a {
+  display: block;
+  padding: 30px;
+  //   color: #fff;
+  text-align: left;
+  position: relative;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.tour-cols .btn.btn.btn-outline:hover {
+  background: #38bca6;
+  color: white;
+}
+
+.btn {
+  padding: 5px 10px;
+  border: 0px;
+  box-shadow: 0px 2px 4px 0px #0000001c;
+  background-color: #5733b2;
+  background: -webkit-linear-gradient(to right, #4600ac, #01014b);
+  background: linear-gradient(to right, #4600ac, #01014b);
+  color: #fff;
+  outline: none;
+  font-weight: bold;
+}
+
+.tour-cols h4 {
+  font-size: 22px;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.tour-cols a .btn {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.btn.btn-yellow {
+  background: #fed700;
+  color: #000;
+}
+
+.city-page-search {
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.gradient-bg {
+  // background-color: #5733B2;
+  // background: -webkit-linear-gradient(to right, #4600ac, #01014B);
+  background: linear-gradient(to top, #fed700, #3fbfaa);
+  //   height: 100%;
+}
+
+.city-page-search .search-box {
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 0;
+  padding: 15px 0;
+}
+
+.search-box {
+  padding: 30px;
+  color: #fff;
+  position: relative;
+  border-radius: 5px 5px 0 0;
+}
+.city-page-search .search-box .nav-tabs {
+  max-width: 300px;
+}
+
+.search-box .nav-tabs {
+  background: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 40px;
+  max-width: 350px;
+  margin: auto;
+}
+
+.search-box .nav-tabs li {
+  width: 50%;
+  float: left;
+  text-align: center;
+  list-style: none;
+}
+
+.search-box .nav-tabs li a.active {
+  background: #38bca6;
+  color: #ffffff;
+}
+.search-box .nav-tabs li a {
+  display: block;
+  padding: 5px;
+  border-radius: 40px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.city-page-search .search-box,
+.city-page-search .search-box .tab-content {
+  width: 100%;
+  float: left;
+}
+.search-box .tab-content {
+  background: #fff;
+  padding: 20px 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: rgb(129 129 129 / 10%) 0px 6px 10px 0px;
+}
+
+.city-page-search .search-box .tab-content ul {
+  display: block;
+}
+
+.city-page-search .search-box .tab-content ul li {
+  width: 100%;
+  float: left;
+  margin: 0;
+}
+
+.city-page-search .search-box .tab-content ul li + li {
+  padding-top: 15px;
+}
+
+.oneWayButton {
+  background: linear-gradient(to right, #fed700, #38bca6);
+}
+
+.city-page-search .search-box .tab-content ul li label {
+  display: none;
+}
+.search-box .tab-content ul li label {
+  color: #777777;
+  margin: 0;
+  display: none;
+}
+
+.search-box .tab-content ul li .form-control {
+  height: 50px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.visitor-guide-sectoin {
+  width: 100%;
+  float: left;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+  background-color: #fff;
+  margin-top: 50px;
+}
+
+.visitor-guide-head {
+  font-size: 22px;
+  padding-bottom: 20px;
+  line-height: 26px;
+  border-bottom: 1px solid #e2e2e2;
+  font-weight: 700;
+}
+
+.color2 {
+  color: #01014b;
+}
+
+.visitor-guide {
+  padding: 50px 35px;
+  position: relative;
 }

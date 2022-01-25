@@ -30,6 +30,15 @@ ul {
   padding: 5px 0;
 }
 
+.footer-content ul li a,
+.contact-info a {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 .copyrightText {
   width: 100%;
   box-sizing: border-box;
